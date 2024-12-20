@@ -1,0 +1,40 @@
+body {
+  /* Fundo com gradiente futurista */
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+  font-family: 'Roboto Mono', monospace; /* Fonte minimalista */
+  color: #ffffff; /* Cor do texto branca */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  border-radius: 10px; /* Cantos arredondados */
+  background-color: rgba(0, 0, 0, 0.3); /* Fundo semi-transparente */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff; /* Cor de fundo do botão azul */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit; /* Herda a fonte do body */
+}
+
+#nao {
+  position: absolute;
+  transition: left 0.3s, top 0.3s;
+}
